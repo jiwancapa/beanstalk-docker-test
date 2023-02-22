@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           region: ap-northeast-2
           application_name: docker-test
-          environment_name: Dockertest-env
+          environment_name: Dockertest-env-1
           version_description: ${{ github.event.head_commit.message }}
           deployment_package: ${{ github.sha }}.zip
           version_label: ${{ github.sha }}
