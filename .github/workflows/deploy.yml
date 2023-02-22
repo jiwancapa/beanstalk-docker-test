@@ -23,3 +23,4 @@ jobs:
           environment_name: Dockertest-env
           version_description: ${{ github.event.head_commit.message }}
           deployment_package: ${{ github.sha }}.zip
+          version_label: ${{ github.sha }}
