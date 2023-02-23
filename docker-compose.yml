@@ -3,8 +3,6 @@ version: '3.1'
 services:
   app:
     build: .
-    expose:
-      - 3000
     ports:
       - 80:3000
     working_dir: /app
